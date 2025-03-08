@@ -1,0 +1,148 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #2d2d30;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #efefef;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+input {
+    font-size: 1.7em;
+    margin: 0.5em;
+    padding: 0.5em;
+    width: 30%;
+    border: 1px solid #666;
+    margin-top: 20px;
+    background-color: #3e3e42;
+    color: #efefef;
+}
+
+input:hover {
+    border: 2px solid #4CAF50;
+}
+
+input:focus, input:active {
+    outline: none;
+    border: 2px solid #4CAF50;
+}
+
+input[type="date"] {
+    font-size: 1.7em;
+    font-family: 'Inter', sans-serif;
+    margin: 0.5em;
+    padding: 0.5em;
+    border: 1px solid #666;
+    color: #efefef;
+}
+
+select {
+    font-size: 1.7em;
+    margin: 0.5em;
+    padding: 0.5em;
+    width: 32%;
+    border: 1px solid #666;
+    background-color: #3e3e42;
+    color: #efefef;
+}
+
+select:hover {
+    border: 2px solid #4CAF50;
+}
+
+select:focus, select:active {
+    outline: none;
+    border: 2px solid #4CAF50;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: 2px solid #4CAF50;
+    cursor: pointer;
+    font-size: 1.5em;
+    margin: 0.5em;
+    padding: 0.7em 1em;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #2d2d30;
+    color: #4CAF50;
+}
+
+.icon {
+    padding: 5px;
+    font-size: 120%;
+}
+
+.icon:hover {
+    background-color: #3e3e42;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+table {
+    margin: 80px auto;
+    width: 50%;
+    scale: 1.7;
+}
+
+table, tr {
+    border: 1px solid #efefef;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 0.5em;
+    border: 1px solid #efefef;
+}
+
+tr, td {
+    line-height: normal;
+}
+
+th {
+    border: 1px solid #efefef;
+    padding: 10px;
+}
+
+.deadline {
+    /* background-color: #fcd0c2c4; */
+    background-color: #af4c4c;
+}
+
+th:first-child {
+    width: 600%;
+}
+
+th:last-child {
+    width: 10%;
+}
+
+a {
+    color: #4CAF50;
+}
+
+#delete {
+    color: #af4c4c;
+}
+
+h1 {
+    margin-top: 50px;
+}

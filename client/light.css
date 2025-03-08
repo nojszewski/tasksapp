@@ -1,0 +1,141 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #efefef;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+input {
+    font-size: 1.7em;
+    margin: 0.5em;
+    padding: 0.5em;
+    width: 30%;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+input:hover {
+    border: 2px solid #4CAF50;
+}
+
+input:focus, input:active {
+    outline: none;
+    border: 2px solid #4CAF50;
+}
+
+input[type="date"] {
+    font-size: 1.7em;
+    font-family: 'Inter', sans-serif;
+    margin: 0.5em;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+}
+
+select {
+    font-size: 1.7em;
+    margin: 0.5em;
+    padding: 0.5em;
+    width: 32%;
+    border: 1px solid #ccc;
+}
+
+select:hover {
+    border: 2px solid #4CAF50;
+}
+
+select:focus, select:active {
+    outline: none;
+    border: 2px solid #4CAF50;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: 2px solid #4CAF50;
+    cursor: pointer;
+    font-size: 1.5em;
+    margin: 0.5em;
+    padding: 0.7em 1em;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #efefef;
+    color: #4CAF50;
+}
+
+.icon {
+    padding: 5px;
+    font-size: 120%;
+}
+
+.icon:hover {
+    background-color: #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+table {
+    margin: 80px auto;
+    width: 50%;
+    scale: 1.7;
+}
+
+table, tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 0.5em;
+    border: 1px solid black;
+}
+
+tr, td {
+    line-height: normal;
+}
+
+th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.deadline {
+    background-color: #FCC2C2;
+}
+
+th:first-child {
+    width: 600%;
+}
+
+th:last-child {
+    width: 10%;
+}
+
+a {
+    color: #4CAF50;
+}
+
+#delete {
+    color: #af4c4c;
+}
+
+h1 {
+    margin-top: 50px;
+}
