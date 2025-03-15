@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <h1>Panel Admina</h1>
-        <h3><a href="#" id="changeTheme">[przełącz motyw]</a></h3>
+        <h3><a href="#" id="changeTheme"><i class="fa-solid fa-repeat"></i> Przełącz motyw</a></h3>
         <form>
             <input type="text" id="name" placeholder="Zadanie"><br>
             <input type="date" id="deadline"><br>
@@ -83,7 +83,7 @@
                 const editIcon = '<i class="fa-regular fa-pen-to-square icon"></i>'
                 const deleteIcon = '<i class="fa-solid fa-trash icon"></i>'
 
-                cell4.innerHTML = `<a href="#" id="edit">${editIcon}</a><a href="#" id="delete">${deleteIcon}</a>`
+                cell4.innerHTML = `<a href="#" class="edit">${editIcon}</a><a href="#" class="delete">${deleteIcon}</a>`
 
                 row.appendChild(cell1)
                 row.appendChild(cell2)
@@ -91,8 +91,8 @@
                 row.appendChild(cell4)
 
                 const id = task.id
-                const editBtn = document.querySelector('#edit')
-                const deleteBtn = document.querySelector('#delete')
+                const editBtn = row.querySelector('.edit')
+                const deleteBtn = row.querySelector('.delete')
 
                 editBtn.addEventListener('click', async () => {
                     const newName = prompt('Podaj nową nazwę zadania', task.name)
